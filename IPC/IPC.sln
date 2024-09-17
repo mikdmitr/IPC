@@ -15,9 +15,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OldTcpSocketClient", "OldTc
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OldTcpSocketServer", "OldTcpSocketServer\OldTcpSocketServer.csproj", "{87829FE2-C185-475C-8AC4-A25C3256131E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NamedPipeServer", "NamedPipeServer\NamedPipeServer.csproj", "{BEE3A0EB-C942-4AC2-BC65-C6CDDF498548}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NamedPipeServer", "NamedPipeServer\NamedPipeServer.csproj", "{BEE3A0EB-C942-4AC2-BC65-C6CDDF498548}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NamedPipeClient", "NamedPipeClient\NamedPipeClient.csproj", "{CE8DFB0D-0C6A-4A0E-A106-195AE976D23D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NamedPipeClient", "NamedPipeClient\NamedPipeClient.csproj", "{CE8DFB0D-0C6A-4A0E-A106-195AE976D23D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WCFClient", "WCFClient\WCFClient.csproj", "{539F905A-625A-4323-8050-A7CB036779B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFServerFramework", "WCFServerFramework\WCFServerFramework.csproj", "{3AD21DE7-0DA8-4D7B-A75A-4FA7C8108671}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +61,14 @@ Global
 		{CE8DFB0D-0C6A-4A0E-A106-195AE976D23D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE8DFB0D-0C6A-4A0E-A106-195AE976D23D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE8DFB0D-0C6A-4A0E-A106-195AE976D23D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{539F905A-625A-4323-8050-A7CB036779B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{539F905A-625A-4323-8050-A7CB036779B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{539F905A-625A-4323-8050-A7CB036779B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{539F905A-625A-4323-8050-A7CB036779B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AD21DE7-0DA8-4D7B-A75A-4FA7C8108671}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AD21DE7-0DA8-4D7B-A75A-4FA7C8108671}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AD21DE7-0DA8-4D7B-A75A-4FA7C8108671}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AD21DE7-0DA8-4D7B-A75A-4FA7C8108671}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
